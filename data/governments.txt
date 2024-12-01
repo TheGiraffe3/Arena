@@ -1,4 +1,3 @@
-
 government "Blue"
 	swizzle 5
 	"player reputation" 1
