@@ -1,0 +1,2 @@
+name "Arena"
+description "Adds a system east of Sagittarius A* for testing of different ship builds."
