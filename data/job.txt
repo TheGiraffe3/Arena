@@ -3,23 +3,19 @@ mission "Start Fight"
 	description "Fight at <system>"
 	repeat
 	job
-	source
-		planet "Planet Arena"
+	source "Planet Arena"
 	npc
 		government "Red"
-		sytem Arena
+		system Arena
 		personality waiting heroic
 		ship "Red Ship" "Red"
 	npc
 		government "Blue"
 		system Arena
 		personality waiting heroic
-		ship "Blue Ship" "Blue
+		ship "Blue Ship" "Blue"
 
-	on complete
-		payment 0
-
-ship "Example 1 Finch" "Red Ship" #PASTE YOUR SHIP HERE WITH VARIANT "RED SHIP"
+ship "Example 1 Finch" "Red Ship" # PASTE YOUR SHIP HERE WITH VARIANT "RED SHIP"
 	plural "Finches"
 	sprite "ship/finch"
 	thumbnail "thumbnail/finch"
@@ -62,7 +58,7 @@ ship "Example 1 Finch" "Red Ship" #PASTE YOUR SHIP HERE WITH VARIANT "RED SHIP"
 	explode "small explosion" 5
 
 
-ship "Example 2 Sparrow" "Blue Ship" #PASTE YOUR SHIP HERE WITH VARIANT "BLUE SHIP"
+ship "Example 2 Sparrow" "Blue Ship" # PASTE YOUR SHIP HERE WITH VARIANT "BLUE SHIP"
 	sprite "ship/sparrow"
 	thumbnail "thumbnail/sparrow"
 	attributes
