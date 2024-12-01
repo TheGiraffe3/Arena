@@ -1,8 +1,7 @@
-
 system "Arena"
 	pos 181 2
 	habitable 625
-	government Neutral
+	government Uninhabited
 	object "Planet Arena"
 		sprite planet/ocean4
 		distance 643.85
@@ -13,4 +12,4 @@ planet "Planet Arena"
 	description ``
 	spaceport ``
 	bribe 0
-	security 0.9
+	security 0
